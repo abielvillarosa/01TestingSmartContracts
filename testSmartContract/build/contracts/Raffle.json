@@ -1,0 +1,50 @@
+{
+  "args": [
+    100
+  ],
+  "className": "Raffle",
+  "code": "608060405260008054600160a060020a0319163317905560d7806100246000396000f3fe6080604052348015600f57600080fd5b50600436106044577c0100000000000000000000000000000000000000000000000000000000600035046356a3463e81146049575b600080fd5b604f6051565b005b60005473ffffffffffffffffffffffffffffffffffffffff163314607457600080fd5b6000805474ff000000000000000000000000000000000000000019167401000000000000000000000000000000000000000017905556fea165627a7a72305820d5d0e341440c44ee02eaf666ff2edb695a2c7d88ea6e2afa5fbb981b65461cac0029",
+  "runtimeBytecode": "6080604052348015600f57600080fd5b50600436106044577c0100000000000000000000000000000000000000000000000000000000600035046356a3463e81146049575b600080fd5b604f6051565b005b60005473ffffffffffffffffffffffffffffffffffffffff163314607457600080fd5b6000805474ff000000000000000000000000000000000000000019167401000000000000000000000000000000000000000017905556fea165627a7a72305820d5d0e341440c44ee02eaf666ff2edb695a2c7d88ea6e2afa5fbb981b65461cac0029",
+  "realRuntimeBytecode": "6080604052348015600f57600080fd5b50600436106044577c0100000000000000000000000000000000000000000000000000000000600035046356a3463e81146049575b600080fd5b604f6051565b005b60005473ffffffffffffffffffffffffffffffffffffffff163314607457600080fd5b6000805474ff000000000000000000000000000000000000000019167401000000000000000000000000000000000000000017905556fea165627a7a72305820",
+  "linkReferences": {},
+  "swarmHash": "d5d0e341440c44ee02eaf666ff2edb695a2c7d88ea6e2afa5fbb981b65461cac",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "43000",
+      "executionCost": "20361",
+      "totalCost": "63361"
+    },
+    "external": {
+      "suspendRaffle()": "20576"
+    }
+  },
+  "functionHashes": {
+    "suspendRaffle()": "56a3463e"
+  },
+  "abiDefinition": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "suspendRaffle",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0x56a3463e"
+    }
+  ],
+  "filename": "C:\\Users\\Abiel\\gbcprojects\\01TestingSmartContracts\\testSmartContract\\.embark\\contracts\\Raffle.sol",
+  "originalFilename": "contracts\\Raffle.sol",
+  "path": "C:\\Users\\Abiel\\gbcprojects\\01TestingSmartContracts\\testSmartContract\\contracts\\Raffle.sol",
+  "gas": "auto",
+  "type": "file",
+  "deploy": true,
+  "_gasLimit": 6000000,
+  "error": false,
+  "deploymentAccount": "0x4F51d1bAFE75c8D4346519D41d4D263d9c120a29",
+  "realArgs": [
+    100
+  ],
+  "address": "0xa14F17CE173566e83f66f2447c72eE4b7AB5f6E6",
+  "deployedAddress": "0xa14F17CE173566e83f66f2447c72eE4b7AB5f6E6"
+}
