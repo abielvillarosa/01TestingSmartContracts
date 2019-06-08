@@ -31,7 +31,7 @@ contract("Foo", function () {
 
   it("baz is not called by owner", async function() {
     try {
-      await Foo.methods.baz(4).send({from: accounts[1]}); 
+      await Foo.methods.baz(4).send({from: accounts[5]}); 
     }
     catch (error) {
       let actualError = error.message;
@@ -62,3 +62,4 @@ contract("Foo", function () {
   });
 
 })
+
